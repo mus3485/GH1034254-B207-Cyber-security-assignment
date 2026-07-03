@@ -21,18 +21,18 @@ pip install scikit-learn
 
 bash
 python detector.py
-```
+`
 
- 3. Use the application
+3.git add . Use the application
 
- Enter or paste an email when prompted.
- Press Enter.
- The application will analyse the email and display whether it is Phishing or Safe.
- The result is automatically saved in the SQLite database.
+Enter or paste an email when prompted.
+Press Enter.
+The application will analyse the email and display whether it is Phishing or Safe.
+The result is automatically saved in the SQLite database.
 
- Project Files
+Project Files
 
- detector.py** – Main Python application.
- README.md** – Project documentation and instructions.
-.gitignore** – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
- security_logs.db** – SQLite database containing the scan history (created automatically when the program is first executed).
+detector.py – Main Python application.
+README.md – Project documentation and instructions.
+.gitignore – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
+security_logs.db – SQLite database containing the scan history (created automatically when the program is first executed).

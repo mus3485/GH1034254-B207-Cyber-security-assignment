@@ -11,28 +11,32 @@ This project is a Python-based phishing email detection system that uses machine
 
  How to Run the Project
 
-1. Install the required library
+1.Install the required library
 
-bash
-pip install scikit-learn
+ bash
+ pip install scikit-learn
 
 
-2. Run the application
+ 2.run the application
 
-bash
-python detector.py
-`
+ bash
+ python detector.py
 
-3.git add . Use the application
 
-Enter or paste an email when prompted.
-Press Enter.
-The application will analyse the email and display whether it is Phishing or Safe.
-The result is automatically saved in the SQLite database.
+3.Use the application
 
-Project Files
+ Enter or paste an email when prompted.
+ Press Enter.
+ The application will analyse the email and display whether it is Phishing or Safe.
+ The result is automatically saved in the SQLite database.
 
-detector.py – Main Python application.
-README.md – Project documentation and instructions.
-.gitignore – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
-security_logs.db – SQLite database containing the scan history (created automatically when the program is first executed).
+
+4.Project Files
+
+ detector.py – Main Python application.
+
+ README.md – Project documentation and instructions.
+
+ .gitignore – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
+
+ security_logs.db – SQLite database containing the scan history (created automatically when the program is first executed).

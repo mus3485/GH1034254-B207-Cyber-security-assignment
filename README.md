@@ -11,18 +11,20 @@ This project is a Python-based phishing email detection system that uses machine
 
  
 
-1.Install the required library
+1.Install and import the required libraries by running:
 
- bash
+pip install scikit-learn
 
- pip install scikit-learn
+import sqlite3
+import datetime
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
 
 
  2.run the application
 
- bash
 
- python updated detector.py
+python updated detector.py
 
 
 3.Use the application
@@ -37,10 +39,9 @@ This project is a Python-based phishing email detection system that uses machine
 
 
 4.Project Files
-
 updated detector.py – Main Python application.
 
- README.md – Project documentation and instructions.
+README.md – Project documentation and instructions.
 
  .gitignore – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
 

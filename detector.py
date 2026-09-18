@@ -33,6 +33,7 @@ def train_brain():
         "URGENT: Click here to change your bank password now!",
         "Please send me the project report by tomorrow morning.",
         "WINNER! You won a free lottery prize click this link!"
+        "Hi,hurry up give bank details"
     ]
     answers = [0, 1, 0, 1] # 0 mean safe, 1 mean scam
     

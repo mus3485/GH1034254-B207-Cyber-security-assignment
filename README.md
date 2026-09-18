@@ -38,10 +38,10 @@ This project is a Python-based phishing email detection system that uses machine
 
 4.Project Files
 
- detector.py – Main Python application.
+updated detector.py – Main Python application.
 
  README.md – Project documentation and instructions.
 
  .gitignore – Prevents unnecessary files, such as the database file, from being uploaded to GitHub.
 
- security_logs.db – SQLite database containing the scan history (created automatically when the program is first executed).
+ 

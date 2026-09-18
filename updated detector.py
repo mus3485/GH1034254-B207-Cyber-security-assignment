@@ -35,7 +35,7 @@ def train_brain():
         "WINNER! You won a free lottery prize click this link!",
         "Hi  hurry up give bank details"
     ]
-    answers = [0, 1, 0, 1] # 0 mean safe, 1 mean scam
+    answers = [0, 1, 0, 1, 1] # 0 mean safe, 1 mean scam
     
     # turning words into number so program can read them
     counter = CountVectorizer()

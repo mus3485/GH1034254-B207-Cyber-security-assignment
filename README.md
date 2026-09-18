@@ -22,7 +22,7 @@ This project is a Python-based phishing email detection system that uses machine
 
  bash
 
- python detector.py
+ python updated detector.py
 
 
 3.Use the application
